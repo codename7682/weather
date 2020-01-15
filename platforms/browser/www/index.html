@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1,width=device-width">
+        <meta name="author" content="Heetak Baek">
+        <meta name="keyword" content="Daejeon, weather, forecast, guide, alimi">
+        <meta name="description" content="This is weather forecast guide alimi">
+        <link href="css/style.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>This is weather forecast guide alimi</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/219fc55d27.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="alimi">
+            <div class="row "> 
+                <div class="col-6">
+                    <h1>
+                        <img src="images/logo.jpg" alt="logo">
+                        <p class="nalsialrimi">날씨알리미</p>
+                    </h1>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">서울</a>
+                        <a class="dropdown-item" href="#">대전</a>
+                        <a class="dropdown-item" href="#">대구</a>
+                        <a class="dropdown-item" href="#">부산</a>
+                        <a class="dropdown-item" href="#">마카오</a>
+                        <a class="dropdown-item" href="#">런던</a>
+                        <a class="dropdown-item" href="#">밀라노</a>
+                        <a class="dropdown-item" href="#">카이로</a>
+                        <a class="dropdown-item" href="#">예루살렘</a>
+                        <a class="dropdown-item" href="#">모스크바</a>
+                        <a class="dropdown-item" href="#">헬싱키</a>
+                        <a class="dropdown-item" href="#">콰나크</a>
+                        <a class="dropdown-item" href="#">뉴욕</a>
+                        <a class="dropdown-item" href="#">하바나</a>
+                        <a class="dropdown-item" href="#">리마</a>
+                        <a class="dropdown-item" href="#">싱가폴</a>
+                        <a class="dropdown-item" href="#">킨샤사</a>
+                        <a class="dropdown-item" href="#">사용자 위치</a>
+                        </div>
+                    </div> 
+                </div>
+                
+                    
+                
+            </div>
+                
+                
+            
+        </div>
+        <div class="location">
+            <p class="nalsialrimi">2020년 1월 10일</p>
+            <h1>Daejeon</h1>
+            <i class="fas fa-cloud-sun"></i>
+            <p>구름조금</p>
+        </div>
+        <div class="current">
+            <div class="row">
+                <div class="col-4">
+                    <i class="fas fa-wind"></i>
+                    <p>0.8m/s</p>
+                    <i class="fas fa-tint"></i>
+                    <p>73%</p>
+                </div>
+                <div class="col-4">
+                    <p id="mainTemp">-0.9℃</p>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-thermometer-full"></i>
+                    <p>-0.9℃</p>
+                    <i class="fas fa-thermometer-empty"></i>
+                    <p>-1.7℃</p>
+                </div>
+            </div>
+        </div>
+        <div class="forecast">      
+            <div class="fifth">
+                <p>1/11</p>
+                <i class="fas fa-cloud-sun"></i>    
+                <p>-0.9℃</p>
+            </div>
+            <div class="fifth">
+                <p>1/12</p>
+                <i class="fas fa-cloud"></i>        
+                <p>-1.2℃</p>
+            </div>
+            <div class="fifth">
+                <p>1/13</p>
+                <i class="fas fa-sun"></i>
+                <p>-2.7℃</p>
+            </div>
+            <div class="fifth">
+                <p>1/14</p>
+                <i class="fas fa-cloud"></i> 
+                <p>-2.3℃</p>    
+            </div>
+            <div class="fifth">
+                <p>1/15</p>
+                <i class="fas fa-sun"></i>
+                <p>-3.4℃</p>
+            </div>
+        </div>
+        <script src="script/script.js"></script>
+    </body>
+</html>
